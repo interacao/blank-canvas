@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        clock: ["Orbitron", "monospace"],
+        sans: ["Inter", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +61,8 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "tv-price-old": "hsl(var(--tv-price-old))",
+        "tv-price-new": "hsl(var(--tv-price-new))",
       },
       borderRadius: {
         lg: "var(--radius)",
